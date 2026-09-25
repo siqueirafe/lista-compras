@@ -9,6 +9,9 @@
 ## Decisão do usuário para esta compra
 - Prioridade: **concentrar a compra no menor número de mercados** (opção A), conforme a Skill `compras`. O preço vem depois da concentração.
 
+## Atualização: Pão de Açúcar retirado
+O usuário pediu: "por hora tire o Pão de Açúcar desta lista de compra e só siga com os outros". Motivo: o carrinho exigia login. Esta compra segue **só com Atacadão, Assaí e Carrefour**, mantendo as variantes aprovadas abaixo. Nova rodada: `1b-pesquisa.md`, `2b-verificacao.md`.
+
 ## Lista aprovada pelo usuário (após a verificação)
 Resposta do usuário: "1a, 2a, 3a, sim". Mercado: **Pão de Açúcar**.
 
