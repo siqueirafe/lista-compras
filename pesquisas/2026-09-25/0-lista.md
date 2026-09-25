@@ -12,7 +12,18 @@
 ## Atualização: Pão de Açúcar retirado
 O usuário pediu: "por hora tire o Pão de Açúcar desta lista de compra e só siga com os outros". Motivo: o carrinho exigia login. Esta compra segue **só com Atacadão, Assaí e Carrefour**, mantendo as variantes aprovadas abaixo. Nova rodada: `1b-pesquisa.md`, `2b-verificacao.md`.
 
-## Lista aprovada pelo usuário (após a verificação)
+## Decisão após 2b-verificacao.md
+Resposta do usuário: "1 A e o 2 sim". Aceita o arroz do Carrefour ("Branco Longo-fino Tipo 1", sem a menção "Agulhinha") e confirma **Carrefour** como único mercado. Total estimado: R$ 92,54 (sem frete).
+
+| Código | Produto aprovado (Carrefour) | Qtd | Preço verificado (un.) |
+|---|---|---|---|
+| I01 | Arroz Tio João Branco Longo-fino Tipo 1 5 kg | 2 | R$ 26,49 |
+| I02 | Detergente Ypê Clear 500 ml | 3 | R$ 2,69 |
+| I03 | Papel higiênico Neve Toque da Seda folha dupla 30 m, 12 rolos | 1 | R$ 31,49 |
+
+Links: ver `2b-verificacao.md`.
+
+## Lista aprovada pelo usuário (primeira rodada, Pão de Açúcar, cancelada)
 Resposta do usuário: "1a, 2a, 3a, sim". Mercado: **Pão de Açúcar**.
 
 | Código | Produto aprovado | Qtd | Preço verificado (un.) | Link |
