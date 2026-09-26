@@ -20,7 +20,7 @@ Descubra qual mercado atende a lista da forma mais completa, nesta ordem (COMPRA
 1. **Um único mercado com 100% dos itens.**
 2. Se nenhum tiver tudo, o mercado com **mais itens**.
 3. Só se necessário, dividir o restante no **menor número de mercados**.
-4. Desempate: menor total da compra; depois a ordem Atacadão > Assaí > Pão de Açúcar > Carrefour.
+4. Desempate: menor total da compra; depois a ordem Atacadão > Assaí > Pão de Açúcar > Carrefour > Sam's Club / Nagumo (posição a definir).
 
 Só conte como disponível o que tiver **estoque comprovado**. Se a página e o catálogo do site se contradisserem, o item fica em ATENÇÃO e não conta.
 

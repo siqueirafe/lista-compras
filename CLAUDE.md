@@ -12,9 +12,9 @@
 
 ## Resumo das regras do usuário
 - **Categorias:** tudo que se compra em mercado para casa (alimentos, bebidas, limpeza, higiene pessoal, produtos para casa).
-- **Mercados autorizados:** Atacadão, Assaí Atacadista, Pão de Açúcar e Carrefour. Outros só se o usuário pedir. O usuário pode tirar um mercado de uma compra.
+- **Mercados autorizados:** Atacadão, Assaí Atacadista, Pão de Açúcar, Carrefour, Sam's Club e Nagumo. Outros só se o usuário pedir. O usuário pode tirar um mercado de uma compra.
 - **Prioridade:** produto correto → disponibilidade da lista → **concentração no menor número de mercados** → preço e condições.
-- **Escolha do mercado:** 1 mercado com tudo > o que tem mais itens > dividir no menor número. Desempate: menor total, depois a ordem Atacadão > Assaí > Pão de Açúcar > Carrefour.
+- **Escolha do mercado:** 1 mercado com tudo > o que tem mais itens > dividir no menor número. Desempate: menor total, depois a ordem Atacadão > Assaí > Pão de Açúcar > Carrefour > Sam's Club / Nagumo (posição a definir).
 - **Preço:** comparado no **tamanho exato pedido na lista**.
 - **Marcas e variantes:** sem preferências fixas; marca e tamanho vêm na lista. Item sem marca: **perguntar antes de pesquisar**. Sem preferência: melhor equilíbrio entre qualidade e preço. Variante não definida: mostrar opções e deixar o usuário escolher.
 - **Item sem estoque:** pesquisar alternativas nas marcas que o usuário indicar e esperar a escolha dele.

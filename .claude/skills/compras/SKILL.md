@@ -42,7 +42,7 @@ Sempre que possível, priorize **um único mercado com todos os produtos**.
 ## ETAPA 1: PESQUISADOR
 Acione o agente `pesquisador` com a lista de compras.
 
-Ele pesquisa cada produto **somente nos mercados autorizados no COMPRAS.md**: Atacadão, Assaí Atacadista, Pão de Açúcar e Carrefour. Para cada item, em cada mercado, deve procurar:
+Ele pesquisa cada produto **somente nos mercados autorizados no COMPRAS.md**: Atacadão, Assaí Atacadista, Pão de Açúcar, Carrefour, Sam's Club e Nagumo. Para cada item, em cada mercado, deve procurar:
 - produto correto;
 - marca solicitada, quando houver;
 - quantidade, peso, volume ou tamanho;
@@ -66,7 +66,7 @@ Só depois da Etapa 1, acione o agente `verificador`.
 2. **2ª prioridade:** se nenhum tiver tudo, o mercado com **a maior quantidade de itens** da lista.
 3. **3ª prioridade:** só quando necessário, dividir os itens restantes entre outros mercados autorizados, usando **o menor número possível de mercados**.
 
-Objetivo: evitar compra fragmentada sem necessidade. Se dois mercados empatarem na quantidade de itens, desempate pelo menor total da compra e, persistindo o empate, pela ordem do COMPRAS.md (Atacadão > Assaí > Pão de Açúcar > Carrefour).
+Objetivo: evitar compra fragmentada sem necessidade. Se dois mercados empatarem na quantidade de itens, desempate pelo menor total da compra e, persistindo o empate, pela ordem do COMPRAS.md (Atacadão > Assaí > Pão de Açúcar > Carrefour > Sam's Club / Nagumo (posição a definir)).
 
 Além disso, ele confere:
 - se os produtos correspondem ao solicitado;

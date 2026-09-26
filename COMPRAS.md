@@ -19,11 +19,13 @@ Tudo que se compra em mercado para casa:
 - Produtos para casa
 
 ### Mercados autorizados
-Somente estes 4 mercados:
+Somente estes 6 mercados (Sam's Club e Nagumo incluídos pelo usuário em 26/09/2026):
 1. **Atacadão**
 2. **Assaí Atacadista**
 3. **Pão de Açúcar**
 4. **Carrefour**
+5. **Sam's Club** (samsclub.com.br)
+6. **Nagumo** (nagumo.com.br)
 
 Outros mercados/sites **só podem ser pesquisados se o usuário pedir expressamente**.
 O usuário pode **tirar um mercado de uma compra específica** (ex.: em 25/09 tirou o Pão de Açúcar porque o site exigia login). Nesse caso, a compra segue só com os demais.
@@ -35,6 +37,7 @@ O usuário pode **tirar um mercado de uma compra específica** (ex.: em 25/09 ti
 | 2º | Assaí Atacadista |
 | 3º | Pão de Açúcar |
 | 4º | Carrefour |
+| a definir | Sam's Club e Nagumo (o usuário ainda não definiu a posição; até lá, ficam depois dos 4 no desempate) |
 
 A ordem **só serve para desempate** (ver Critérios).
 
@@ -49,7 +52,7 @@ A ordem **só serve para desempate** (ver Critérios).
 1. Primeiro, procurar **um único mercado com 100% dos itens**.
 2. Se nenhum tiver tudo, escolher o mercado com **mais itens da lista**.
 3. Só quando necessário, dividir o restante entre outros mercados, usando **o menor número possível**.
-4. **Desempate:** menor total da compra. Se o empate continuar, vale a ordem Atacadão > Assaí > Pão de Açúcar > Carrefour.
+4. **Desempate:** menor total da compra. Se o empate continuar, vale a ordem Atacadão > Assaí > Pão de Açúcar > Carrefour > Sam's Club / Nagumo (posição a definir).
 
 **Preço:**
 - O preço comparado é o do **tamanho/peso exato pedido na lista**, não o preço proporcional de outros tamanhos.
@@ -79,7 +82,7 @@ Cada item da lista deve ser registrado separadamente em:
 - Nenhum definido por enquanto.
 
 ### Fora do escopo
-- Pesquisar em mercados/sites fora dos 4 autorizados, a menos que o usuário peça.
+- Pesquisar em mercados/sites fora dos 6 autorizados, a menos que o usuário peça.
 - Qualquer assunto que não seja a lista de compras enviada pelo usuário.
 
 ### CEP
@@ -93,7 +96,7 @@ Cada item da lista deve ser registrado separadamente em:
 - Incluir produtos que o usuário não pediu.
 - Substituir produto, marca, tamanho ou variante sem a escolha do usuário.
 - Apresentar opinião como se fosse fato.
-- Pesquisar fora dos 4 mercados autorizados sem pedido do usuário.
+- Pesquisar fora dos 6 mercados autorizados sem pedido do usuário.
 - Pedir ou usar senha, e-mail, CPF, endereço completo, cartão ou dados de pagamento.
 - Fazer login, criar conta ou aceitar termos.
 - Inventar preços, estoque, promoções, links ou qualquer informação.
@@ -212,4 +215,7 @@ Fatos vistos na primeira compra. Podem mudar; reconferir a cada compra.
 - **Carrefour:** exige CEP ou loja para colocar itens no carrinho; não exigiu login para montar o carrinho. Bloqueia leitura automática, então a pesquisa precisa do navegador.
 - **Atacadão:** sem CEP, mostra preços da loja padrão do site. A página do produto e o catálogo do site podem divergir no estoque.
 - **Assaí:** o site não mostra preço nem vende; direciona para o app "Meu Assaí", iFood e Rappi.
+- **Atacadão (entrega):** pedido mínimo de R$ 250,00 para entrega; taxa de serviço no carrinho (visto em 26/09/2026).
+- **Sam's Club:** só sócios ativos compram (anuidade paga). Mostra preços sem login (visto em 26/09/2026).
+- **Nagumo:** para comprar, pede login/cadastro. Alguns preços menores têm o selo "Meu Nagumo", programa que exige cadastro com CPF (visto em 26/09/2026).
 - Nenhum dos mercados ofereceu link de carrinho para compartilhar.

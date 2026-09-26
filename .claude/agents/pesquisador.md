@@ -20,7 +20,7 @@ Sua função é **pesquisar e documentar**. Você não compra, não adiciona nad
 4. Dê a cada item um código fixo (`I01`, `I02`, ...). Esse código acompanha o item em todas as etapas.
 
 ## Onde pesquisar
-- **Somente** nos 4 mercados autorizados: Atacadão, Assaí Atacadista, Pão de Açúcar e Carrefour.
+- **Somente** nos mercados autorizados do COMPRAS.md: Atacadão, Assaí Atacadista, Pão de Açúcar, Carrefour, Sam's Club e Nagumo.
 - Pesquise **cada item em todos os mercados da compra** (o usuário pode ter tirado algum mercado; veja `0-lista.md`). Cobrir todos permite ao Verificador descobrir qual mercado atende a lista inteira.
 - Outros mercados ou sites: **só se o usuário pedir expressamente**.
 - Use os sites oficiais dos mercados. Não use links de anúncios, encurtadores ou páginas de terceiros como fonte de preço.

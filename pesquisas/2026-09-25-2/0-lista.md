@@ -35,3 +35,6 @@ O usuário pediu para montar **também** o carrinho no Atacadão, com os mesmos 
 - Substituições escolhidas pelo usuário para o Atacadão ("pode incluir a opção a do fermento e do sabão em pó"):
   - I01 → Fermento químico Dr. Oetker **pote** 100 g, R$ 3,98
   - I05 → Sabão em pó Omo Lavagem Perfeita **2,4 kg**, R$ 24,90
+
+## Novos mercados (26/09/2026)
+O usuário incluiu **Sam's Club** (samsclub.com.br) e **Nagumo** (nagumo.com.br) como mercados autorizados e pediu para pesquisar neles também os 5 itens desta compra. Resultado em `1c-pesquisa-sams-nagumo.md` e `2c-verificacao-sams-nagumo.md`.
