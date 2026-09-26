@@ -32,3 +32,6 @@ Total estimado dos produtos: R$ 97,75 (sem frete). Links: ver `2-verificacao.md`
 O usuário pediu para montar **também** o carrinho no Atacadão, com os mesmos 5 itens aprovados, para ele escolher qual finaliza. Autorizou usar o CEP informado por ele na compra anterior (CEP informado pelo usuário, não registrado) e escolher "receber em casa".
 - Mesmas marcas e tamanhos. Se algum não existir ou estiver sem estoque no Atacadão, **não substituir**: mostrar as opções para o usuário escolher.
 - Resultado em `3b-carrinho-atacadao.md`.
+- Substituições escolhidas pelo usuário para o Atacadão ("pode incluir a opção a do fermento e do sabão em pó"):
+  - I01 → Fermento químico Dr. Oetker **pote** 100 g, R$ 3,98
+  - I05 → Sabão em pó Omo Lavagem Perfeita **2,4 kg**, R$ 24,90
