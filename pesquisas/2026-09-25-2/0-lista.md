@@ -27,3 +27,8 @@ Resposta do usuário: "1A, 2Ab, 3b, 4d, 5d, sim" e, na dúvida da margarina, "s�
 | I05 | Sabão em pó Omo Lavagem Perfeita 2,2 kg | 1 | R$ 30,09 |
 
 Total estimado dos produtos: R$ 97,75 (sem frete). Links: ver `2-verificacao.md`.
+
+## Segundo carrinho: Atacadão (pedido do usuário)
+O usuário pediu para montar **também** o carrinho no Atacadão, com os mesmos 5 itens aprovados, para ele escolher qual finaliza. Autorizou usar o CEP informado por ele na compra anterior (CEP informado pelo usuário, não registrado) e escolher "receber em casa".
+- Mesmas marcas e tamanhos. Se algum não existir ou estiver sem estoque no Atacadão, **não substituir**: mostrar as opções para o usuário escolher.
+- Resultado em `3b-carrinho-atacadao.md`.
