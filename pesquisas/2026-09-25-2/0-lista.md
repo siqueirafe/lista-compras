@@ -38,3 +38,6 @@ O usuário pediu para montar **também** o carrinho no Atacadão, com os mesmos 
 
 ## Novos mercados (26/09/2026)
 O usuário incluiu **Sam's Club** (samsclub.com.br) e **Nagumo** (nagumo.com.br) como mercados autorizados e pediu para pesquisar neles também os 5 itens desta compra. Resultado em `1c-pesquisa-sams-nagumo.md` e `2c-verificacao-sams-nagumo.md`.
+
+## Terceiro carrinho: Nagumo (pedido do usuário)
+Resposta do usuário: "b" — montar também o carrinho no Nagumo para comparar. Mesmos 5 itens (I01 Dr. Oetker 100 g, embalagem a confirmar; I02 Doriana com sal 500 g; I03 Sococo desidratado 100 g; I04 Omo Puro Cuidado 3 L; I05 Omo Lavagem Perfeita 2,2 kg), 1 de cada. Sem cadastro no "Meu Nagumo". Resultado em `3c-carrinho-nagumo.md`.
