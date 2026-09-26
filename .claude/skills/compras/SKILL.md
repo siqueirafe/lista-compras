@@ -26,7 +26,7 @@ Projeto: **COMPRAS / MERCADO**. Esta Skill coordena os agentes de `.claude/agent
 1. Leia `CLAUDE.md` e `COMPRAS.md`. `COMPRAS.md` é a regra principal.
 2. Receba a lista de compras do usuário. Cada item deve ter **produto, marca, quantidade e peso/tamanho**.
 3. Item **sem marca**: pergunte ao usuário antes de pesquisar (regra do COMPRAS.md). Item ambíguo: pergunte.
-4. Crie a pasta do dia `pesquisas/AAAA-MM-DD/` e salve nela a lista recebida.
+4. Crie a pasta do dia `pesquisas/AAAA-MM-DD/` e salve nela a lista recebida em `0-lista.md`. Registre ali **cada decisão do usuário** ao longo do fluxo (variantes, mercado retirado, substituições). Nunca registre CEP.
 5. Ao acionar cada agente, informe a data, a pasta do dia e as regras desta Skill que se aplicam àquela etapa.
 
 ## Prioridade operacional (definida pelo usuário)
@@ -103,7 +103,9 @@ Pode navegar, pesquisar, selecionar e adicionar itens ao carrinho conforme neces
 
 Deixa o carrinho preparado **até o limite permitido pelo site**, para o usuário entrar, revisar, informar os dados necessários e pagar.
 - **Nunca** confirma o pedido nem efetua pagamento.
-- Se o site pedir login, **para e pede ao usuário** que entre na conta pelo navegador. Nunca digita senha nem dados pessoais ou de pagamento.
+- Se o site pedir login, **para e pergunta ao usuário**: ele entra na conta pelo navegador **ou** tira esse mercado da compra (aí volte à Etapa 1 só com os mercados restantes). Nunca digita senha nem dados pessoais ou de pagamento.
+- Se o site pedir CEP, usa **só o CEP que o usuário informou nesta compra**; se não informou, para e pergunta. O CEP **nunca** é gravado em arquivo.
+- Se um item estiver sem estoque na hora do carrinho, não coloca substituto: avisa. Se o usuário pedir alternativas, o `pesquisador` busca nas marcas que ele indicar, o usuário escolhe e o `comprador` adiciona só a escolhida.
 - Se o site permitir compartilhar ou preservar o carrinho por link, entrega o link.
 - Se não permitir, **não inventa link**: informa a limitação e explica como o usuário acessa o carrinho (ex.: "entre no site do Atacadão com sua conta e abra o carrinho").
 
@@ -127,7 +129,7 @@ Depois da tabela:
 - valor estimado de cada carrinho;
 - valor total estimado da compra.
 
-Status final: **apenas um** dos dois abaixo. Nesta Skill, eles substituem o "PODE COMPRAR / NÃO COMPRE AINDA" do agente:
+Status final: **apenas um** dos dois abaixo:
 - **PODE COMPRAR**: o carrinho corresponde à lista e não há pendências relevantes. **Não é autorização para pagamento.**
 - **REVISAR ANTES DE COMPRAR**: há divergência, produto faltante, substituição, diferença relevante de preço ou outro ponto que precisa da decisão do usuário.
 
@@ -156,3 +158,6 @@ Link do carrinho: ... (só se o site realmente oferecer; senão, como acessar)
 ```
 
 O detalhe completo fica em `pesquisas/AAAA-MM-DD/`. Não repita o relatório longo na resposta.
+
+## Envio ao GitHub
+Se o usuário pedir, envie o resultado ao GitHub ao fim de cada etapa. Antes de enviar, confira que **nenhum CEP ou dado pessoal** está nos arquivos.
