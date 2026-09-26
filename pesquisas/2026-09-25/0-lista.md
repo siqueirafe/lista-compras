@@ -23,6 +23,10 @@ Resposta do usuário: "1 A e o 2 sim". Aceita o arroz do Carrefour ("Branco Long
 
 Links: ver `2b-verificacao.md`.
 
+## Substituição do I03 autorizada pelo usuário
+O Neve Toque da Seda 12 rolos ficou sem estoque para entrega. Depois de ver as alternativas (`5-alternativas-papel.md`), o usuário escolheu a **opção a**:
+- I03 → **Papel higiênico Neve Supreme, folha tripla, 12 x 20 m (leve 12 pague 11)**, 1 un, R$ 31,39 (Carrefour).
+
 ## Lista aprovada pelo usuário (primeira rodada, Pão de Açúcar, cancelada)
 Resposta do usuário: "1a, 2a, 3a, sim". Mercado: **Pão de Açúcar**.
 
